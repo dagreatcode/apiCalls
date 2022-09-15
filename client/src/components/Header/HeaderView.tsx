@@ -1,5 +1,4 @@
 import React from 'react';
-import './header.scss';
 
 import {IHeaderViewProps} from './HeaderContainer';
 

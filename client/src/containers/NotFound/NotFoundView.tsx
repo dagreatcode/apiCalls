@@ -1,5 +1,4 @@
 import React from 'react';
-import './notfound.scss';
 
 import {INotFoundViewProps} from './NotFoundContainer';
 

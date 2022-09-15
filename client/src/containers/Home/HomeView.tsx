@@ -1,5 +1,4 @@
 import React from "react";
-import "./home.scss";
 import styled from "styled-components";
 import { IHomeViewProps } from "./HomeContainer";
 

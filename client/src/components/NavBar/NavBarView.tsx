@@ -1,5 +1,4 @@
 import React from 'react';
-import './navbar.scss';
 
 import {INavBarViewProps} from './NavBarContainer';
 

@@ -1,5 +1,4 @@
 import React from 'react';
-import './footer.scss';
 
 import {IFooterViewProps} from './FooterContainer';
 

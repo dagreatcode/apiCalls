@@ -1,5 +1,4 @@
 import React from 'react';
-import './flights.scss';
 
 import {IFlightsViewProps} from './FlightsContainer';
 
