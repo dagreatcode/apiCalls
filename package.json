@@ -4,31 +4,32 @@
   "description": "Updating my skills on retrieving data the right way. Using the React CDN, there will be no boilerplate.   Using all React Hooks, React Bootstrap, Async & Await, also using Switch Cases.  Also using the React EcoSystem using npm, babel, jest, webpack, redux, react-router. TDD and Most of all EDD. All on react 18. Using useEffect the right way and suspense. Server side rendering.",
   "main": "index.js",
   "scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "if-env NODE_ENV=production && npm run prod || npm run dev",
-		"prod": "node index.js",
-		"consoleApp": "cd consoleApp && node consoleApp.js",
-		"me": "(node index.js) & cd consoleApp && node consoleApp.js",
-		"dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
-		"client": "cd client && npm run start",
-		"install": "cd client && npm install",
-		"build": "cd client && npm run build",
-		"seed": "node seeds/blogSeeds.js",
-		"heroku-postbuild": "npm run build",
-		"lint": "eslint . --ext .js,.jsx"
-		  },
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "if-env NODE_ENV=production && npm run prod || npm run dev",
+    "prod": "node index.js",
+    "consoleApp": "cd consoleApp && node consoleApp.js",
+    "me": "(node index.js) & cd consoleApp && node consoleApp.js",
+    "dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "seed": "node seeds/blogSeeds.js",
+    "heroku-postbuild": "npm run build",
+    "lint": "eslint . --ext .js,.jsx"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dagreatcode/apiCalls.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/dagreatcode/apiCalls/issues"
   },
   "homepage": "https://github.com/dagreatcode/apiCalls#readme",
   "dependencies": {
+    "axios": "^0.27.2",
     "dotenv": "^16.0.2",
     "express": "^4.18.1",
     "if-env": "^1.0.4",
